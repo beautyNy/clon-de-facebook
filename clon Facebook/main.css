@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.6rem;
+        background-color: #f0f2f5;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    main {
+        width: 100%;
+        height: 57vh;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+    }
+    
+    .main-container {
+        margin: 0 auto;
+        width: 50%;
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    main .main-logo{
+        width: 520px;
+        height: 116px;
+        font-size: 2.8rem;
+        margin-right: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    main .main-logo img {
+        width: 300px;
+        height: 106px;
+    }
+    
+    main .main-logo p {
+        margin-left: 25px;
+    }
+    
+    main .login {
+        display: flex;
+        width: 396px;
+        height: 360px;
+        box-shadow: 1px 1px 6px 1px #0f0f0f33;
+        border-radius: 5px;
+    }
+    
+    main .login form {
+        background-color: #fff;
+        border-radius: 7px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    main .login form input {
+        outline: none;
+        margin: 0 auto;
+        margin-top: 15px;
+        width: 90%;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #dddfe2;
+        padding: 10px;
+    }
+    
+    main .login form .button-login {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 90%;
+        height: 40px;
+        color: #ffff;
+        font-size: 2rem;
+        background-color: #3477f2;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        
+    }   
+    
+    main .login form .button-login:hover {
+        background-color: #306fe5;
+    }
+    
+    main .login form .button-signup {
+        position: relative;
+        bottom: 15px;
+        background-color: #42b729;
+        border: none;
+        border-radius: 5px;
+        color: #ffff;
+    
+    }
+    
+    main .login form a {
+        margin:  0 auto;
+        text-decoration: none;
+        color: #3c90f8;
+    }
+    
+    main .login form div {
+        border-top: 1px solid #dadde1;
+        width: 90%;
+        margin: 0 auto;
+        height: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    main .login form div button {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 50%;
+        height: 40px;
+    }
+    
+    footer {
+        width: 100%;
+        height: 270px;
+        position: absolute;
+        bottom: 0;
+        background-color: #fff;
+        display: inline-block;
+        flex-wrap: wrap;
+    }
+    
+    footer .top {
+        margin: 0 auto;
+        list-style: none;
+        font-size: 1.2rem;
+        width: 50%;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    footer .top a {
+        color: #9497a2;
+        text-decoration: none;
+        padding-right: 15px;
+    }
+    
+    footer .top button {
+        font-size: 1.4rem;
+        width: 30px;
+    }
+    
+    footer .bottom {
+        text-align: center;
+        border-top: 1px solid #dadde1; 
+        font-size: 1.2rem;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        list-style: none;
+    }
+    
+    footer .bottom a {
+        color: #9497a2;
+        text-decoration: none;
+        padding-right: 20px;
+    }
+    
+    footer .bottom li {
+        padding-top: 5px;
+    }
